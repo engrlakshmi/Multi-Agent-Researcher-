@@ -26,9 +26,9 @@ A **Streamlit-based research tool** that:
 
 ## 📂 Project Structure
 .
-├── app.py # Streamlit app
-├── Dockerfile # Docker setup
-└── requirements.txt # Python dependencies
+├── app.py 
+├── Dockerfile 
+└── requirements.txt 
 
 ## 📦 Installation (Local)
 
@@ -42,6 +42,7 @@ ollama serve
 ollama pull qwen3:8b
 4️⃣ Run the app:
 streamlit run app.py
+
 🐳 Running with Docker
 1️⃣ Build the Docker image:
 docker build -t research-summarizer .
@@ -52,8 +53,8 @@ http://localhost:8501
 Note: The container must be able to connect to your local Ollama server, so you may need to expose its API port (11434).
 
 📜 Example Usage
-Enter:
-Latest AI news August 2025
+Enter:Latest AI news August 2025
+
 The app:
 1. Cleans the query
 2. Searches DuckDuckGo
